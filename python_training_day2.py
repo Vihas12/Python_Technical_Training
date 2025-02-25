@@ -207,4 +207,76 @@ If we want to store complete application flow and exception details in a file so
 
 
 
+# input: [-1,2,-3,4,5,-6]
+# output: [-1,2,-3,4,-6,5]
+# a= [-1,2,-3,4,5,-6]
+# for i in range(1,len(a),2):
+#     if a[i-1]>a[i]:
+#         a[i-1],a[i] = a[i],a[i-1]
+# print(a)
 
+# input: [3,3,4,2,4,4,2,4,4]
+# output: majority element 4
+# a= [3,3,4,2,4,4,2,4,4]
+# d=[]
+# c=[]
+# for i in a:
+#     if i not in d:
+#         d.append(i)
+# for i in d:
+#     c.append(a.count(i))
+# print(d[c.index(max(c))])
+    
+    
+# a={(1,2):1,(2,3):2,(4,5):3}
+# print(a[4,5])                                   # ans: 3
+
+
+# 
+# a=[0,1,3,0,12]
+# for i in a:
+#     if i == 0:
+#         a.remove(i)
+#         a.append(i)
+# print(a)
+
+# # input: [1,2,3],[2,3,4],[3,4,5]
+# # output: [3]
+# a=[1,2,3]
+# b=[2,3,4]
+# c=[3,4,5]
+
+# for i in (a):
+#     if i in b and i in c:
+#         print(i)
+
+# fruit = {}
+# def addon(index):
+#     if index in fruit:
+#         fruit[index] += 1
+#     else:
+#         fruit[index] = 1
+    
+# addon('Apple')
+# addon('Banana')
+# addon('apple')
+# print(len(fruit))
+
+# arr = {}
+# arr[1] = 1
+# arr['1'] = 2
+# arr[1] += 1
+# sum=0
+# for k in arr:
+#     sum += arr[k]
+# print(sum)                          # ans: 4
+
+a={}
+a[1]=1
+a['1']=2
+a[1.0]=4
+sum=0
+for i in a:
+    sum+=a[i]
+    
+print(sum)
