@@ -1,0 +1,5 @@
+DEBUG:root:this indicates the debugging information
+INFO:root:this indicates the important information
+ERROR:root:this indicates the error information
+WARNING:root:this indictaes the warning information
+CRITICAL:root:this indicates the critical information

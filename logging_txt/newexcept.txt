@@ -1,0 +1,17 @@
+ERROR:root:invalid literal for int() with base 10: '@'
+Traceback (most recent call last):
+  File "c:\Users\vihas\OneDrive\Desktop\Vihas Poojari\python_basic\python_training_day2_logging.py", line 13, in <module>
+    val2 = int(input("Enter second value: "))
+ValueError: invalid literal for int() with base 10: '@'
+
+ERROR:root:invalid literal for int() with base 10: '#'
+Traceback (most recent call last):
+  File "c:\Users\vihas\OneDrive\Desktop\Vihas Poojari\python_basic\python_training_day2_logging.py", line 12, in <module>
+    val1 = int(input("Enter first value: "))
+ValueError: invalid literal for int() with base 10: '#'
+
+ERROR:root:invalid literal for int() with base 10: ''
+Traceback (most recent call last):
+  File "c:\Users\vihas\OneDrive\Desktop\Vihas Poojari\python_basic\python_training_day2_logging.py", line 13, in <module>
+    val2 = int(input("Enter second value: "))
+ValueError: invalid literal for int() with base 10: ''
