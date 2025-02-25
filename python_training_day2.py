@@ -141,3 +141,70 @@ Logging
 If we want to store complete application flow and exception details in a file so we should use logging module
 """
 
+# MCQ's
+# a=[1,2,3,4,5,6,7,8,9] 
+# a[::2]=10,20,30,40,50,60                #asn: ValueError: attempt to assign sequence of size 6 to extended slice of size 5
+# print(a)
+
+
+# def fun(value,values):
+#     var=1
+#     values[0]=44
+# t=3
+# v=[1,2,3]
+# print(t,v[0])                          # ans: 3 44
+
+
+
+# data = [[[1,2],[3,4]],[[5,6],[7,8]]]
+# def fun(m):
+#     v=m[0][0]
+#     for row in m:
+#         for e in row:
+#             if v < e:v=e
+#     return v
+
+# print(fun(data[0]))                   # ans: 4
+
+
+
+# arr = [[1,2,3,4],
+#        [4,5,6,7],
+#        [8,9,10,11],
+#        [12,13,14,15]]
+# for i in range(0,4):                  # pop function pops the last element
+    # print(arr[i].pop())               # ans: 4 7 11 15
+    
+    
+# def f(i,value=[]):                     #value = [] is a default list
+#     value.append(i)
+#     print(value)
+# f(1)                                   # [1]
+# f(2)                                   # [1,2]
+# f(3)                                   # [1,2,3]
+
+
+# arr = [1,2,3,4,5,6]
+# for i in range(1,6):
+#     arr[i-1]=arr[i]
+# for i in range(0,6):
+#     print(arr[i],end='')
+
+
+# f1 = ['Apple','Berry','Cherry','Papaya']
+# f2 = f1                                         #list alising f2 and f1 have the same address
+# f3 = f1[:]
+# f2[0] = 'Guava'                                 # f1 =  ['Guava','Berry','Cherry','Papaya']  and f2 =  ['Guava','Berry','Cherry','Papaya']
+# f3[1] = 'Kiwi'                                  # f3 =  ['Apple','Kiwi','Cherry','Papaya']
+
+# sum = 0
+# for ls in (f1,f2,f3):
+#     if ls[0] == 'Guava':
+#         sum += 1
+#     if ls[1] == 'Kiwi':
+#         sum += 20
+# print(sum)                                         # ans : 22
+
+
+
+
