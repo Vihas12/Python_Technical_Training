@@ -271,12 +271,24 @@ If we want to store complete application flow and exception details in a file so
 #     sum += arr[k]
 # print(sum)                          # ans: 4
 
-a={}
-a[1]=1
-a['1']=2
-a[1.0]=4
-sum=0
-for i in a:
-    sum+=a[i]
+# a={}
+# a[1]=1
+# a['1']=2
+# a[1.0]=4
+# sum=0
+# for i in a:
+#     sum+=a[i]
     
-print(sum)
+# print(sum)
+
+
+# a={}
+# a[(1,2,4)]=8
+# a[(4,2,1)]=10
+# a[(1,2)]=12
+
+# sum=0
+# for i in a:
+#     sum+=a[i]
+# print(sum)
+# print(a)
